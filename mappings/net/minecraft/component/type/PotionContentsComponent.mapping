@@ -7,10 +7,6 @@ CLASS net/minecraft/class_1844 net/minecraft/component/type/PotionContentsCompon
 	FIELD field_49749 BASE_CODEC Lcom/mojang/serialization/Codec;
 	METHOD <init> (Lnet/minecraft/class_6880;)V
 		ARG 1 potion
-	METHOD method_47372 buildTooltip (Ljava/util/function/Consumer;FF)V
-		ARG 1 textConsumer
-		ARG 2 durationMultiplier
-		ARG 3 tickRate
 	METHOD method_55762 (Ljava/util/List;Lnet/minecraft/class_6880;Lnet/minecraft/class_1322;)V
 		ARG 1 attribute
 		ARG 2 modifier

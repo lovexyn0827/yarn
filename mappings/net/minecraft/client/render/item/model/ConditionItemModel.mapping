@@ -1,8 +1,8 @@
 CLASS net/minecraft/class_10437 net/minecraft/client/render/item/model/ConditionItemModel
-	FIELD field_55330 property Lnet/minecraft/class_10460;
+	FIELD field_55330 property Lnet/minecraft/class_10724;
 	FIELD field_55331 onTrue Lnet/minecraft/class_10439;
 	FIELD field_55332 onFalse Lnet/minecraft/class_10439;
-	METHOD <init> (Lnet/minecraft/class_10460;Lnet/minecraft/class_10439;Lnet/minecraft/class_10439;)V
+	METHOD <init> (Lnet/minecraft/class_10724;Lnet/minecraft/class_10439;Lnet/minecraft/class_10439;)V
 		ARG 1 property
 		ARG 2 onTrue
 		ARG 3 onFalse

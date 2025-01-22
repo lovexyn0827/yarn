@@ -71,11 +71,6 @@ CLASS net/minecraft/class_324 net/minecraft/client/color/block/BlockColors
 		ARG 2 world
 		ARG 3 pos
 		ARG 4 tintIndex
-	METHOD method_1698 (Lnet/minecraft/class_2680;Lnet/minecraft/class_1920;Lnet/minecraft/class_2338;I)I
-		ARG 0 state
-		ARG 1 world
-		ARG 2 pos
-		ARG 3 tintIndex
 	METHOD method_21592 getProperties (Lnet/minecraft/class_2248;)Ljava/util/Set;
 		ARG 1 block
 	METHOD method_21593 registerColorProperty (Lnet/minecraft/class_2769;[Lnet/minecraft/class_2248;)V
@@ -85,11 +80,6 @@ CLASS net/minecraft/class_324 net/minecraft/client/color/block/BlockColors
 		ARG 1 properties
 		ARG 2 blocks
 	METHOD method_49295 (Lnet/minecraft/class_2680;Lnet/minecraft/class_1920;Lnet/minecraft/class_2338;I)I
-		ARG 0 state
-		ARG 1 world
-		ARG 2 pos
-		ARG 3 tintIndex
-	METHOD method_66525 (Lnet/minecraft/class_2680;Lnet/minecraft/class_1920;Lnet/minecraft/class_2338;I)I
 		ARG 0 state
 		ARG 1 world
 		ARG 2 pos

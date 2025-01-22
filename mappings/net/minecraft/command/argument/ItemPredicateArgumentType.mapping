@@ -46,10 +46,8 @@ CLASS net/minecraft/class_2293 net/minecraft/command/argument/ItemPredicateArgum
 		ARG 1 reader
 	CLASS class_2295 ItemStackPredicateArgument
 	CLASS class_9444 ComponentCheck
-		METHOD method_58535 createPredicate (Lcom/mojang/brigadier/ImmutableStringReader;Lnet/minecraft/class_6903;Lnet/minecraft/class_2520;)Ljava/util/function/Predicate;
+		METHOD method_58535 createPredicate (Lcom/mojang/brigadier/ImmutableStringReader;Lcom/mojang/serialization/Dynamic;)Ljava/util/function/Predicate;
 			ARG 1 reader
-			ARG 2 ops
-			ARG 3 nbt
 		METHOD method_58536 read (Lcom/mojang/brigadier/ImmutableStringReader;Lnet/minecraft/class_2960;Lnet/minecraft/class_9331;)Lnet/minecraft/class_2293$class_9444;
 			ARG 0 reader
 			ARG 1 id
@@ -66,7 +64,6 @@ CLASS net/minecraft/class_2293 net/minecraft/command/argument/ItemPredicateArgum
 		FIELD field_50066 itemRegistryWrapper Lnet/minecraft/class_7225$class_7226;
 		FIELD field_50067 dataComponentTypeRegistryWrapper Lnet/minecraft/class_7225$class_7226;
 		FIELD field_50068 itemSubPredicateTypeRegistryWrapper Lnet/minecraft/class_7225$class_7226;
-		FIELD field_50069 nbtOps Lnet/minecraft/class_6903;
 		METHOD <init> (Lnet/minecraft/class_7225$class_7874;)V
 			ARG 1 registries
 		METHOD method_58544 (Lnet/minecraft/class_6880$class_6883;)Lnet/minecraft/class_2960;
@@ -82,9 +79,7 @@ CLASS net/minecraft/class_2293 net/minecraft/command/argument/ItemPredicateArgum
 			ARG 1 type
 		METHOD method_58558 (Lnet/minecraft/class_9360;)Ljava/util/function/Predicate;
 			ARG 0 predicate
-		METHOD method_58559 createPredicate (Lcom/mojang/brigadier/ImmutableStringReader;Lnet/minecraft/class_6903;Lnet/minecraft/class_2520;)Ljava/util/function/Predicate;
+		METHOD method_58559 createPredicate (Lcom/mojang/brigadier/ImmutableStringReader;Lcom/mojang/serialization/Dynamic;)Ljava/util/function/Predicate;
 			ARG 1 reader
-			ARG 2 ops
-			ARG 3 nbt
 		METHOD method_58560 (Lcom/mojang/brigadier/ImmutableStringReader;Ljava/lang/String;)Lcom/mojang/brigadier/exceptions/CommandSyntaxException;
 			ARG 2 error

@@ -42,8 +42,6 @@ CLASS net/minecraft/class_4722 net/minecraft/client/render/TexturedRenderLayers
 		ARG 3 right
 	METHOD method_24064 createSignTextureId (Lnet/minecraft/class_4719;)Lnet/minecraft/class_4730;
 		ARG 0 type
-	METHOD method_24065 createChestTextureId (Ljava/lang/String;)Lnet/minecraft/class_4730;
-		ARG 0 variant
 	METHOD method_24067 getShieldPatterns ()Lnet/minecraft/class_1921;
 	METHOD method_24069 getBeds ()Lnet/minecraft/class_1921;
 	METHOD method_24070 getShulkerBoxes ()Lnet/minecraft/class_1921;
@@ -67,24 +65,12 @@ CLASS net/minecraft/class_4722 net/minecraft/client/render/TexturedRenderLayers
 		ARG 0 decal
 	METHOD method_49341 getDecoratedPotPatternTextureId (Lnet/minecraft/class_5321;)Lnet/minecraft/class_4730;
 		ARG 0 potPatternKey
-	METHOD method_49342 createDecoratedPotPatternTextureId (Lnet/minecraft/class_2960;)Lnet/minecraft/class_4730;
-		ARG 0 patternId
-	METHOD method_58138 (Lnet/minecraft/class_2960;)Lnet/minecraft/class_4730;
-		ARG 0 id
-	METHOD method_58139 (Lnet/minecraft/class_2960;)Lnet/minecraft/class_4730;
-		ARG 0 id
 	METHOD method_60576 (Lnet/minecraft/class_6880$class_6883;)Lnet/minecraft/class_4730;
 		ARG 0 pattern
-	METHOD method_65526 createBedTextureId (Lnet/minecraft/class_2960;)Lnet/minecraft/class_4730;
-		ARG 0 id
 	METHOD method_65527 getBedTextureId (Lnet/minecraft/class_1767;)Lnet/minecraft/class_4730;
 		ARG 0 color
-	METHOD method_65528 createShulkerBoxTextureId (Lnet/minecraft/class_2960;)Lnet/minecraft/class_4730;
-		ARG 0 id
 	METHOD method_65529 createColorId (Lnet/minecraft/class_1767;)Lnet/minecraft/class_2960;
 		ARG 0 color
-	METHOD method_65530 createChestTextureId (Lnet/minecraft/class_2960;)Lnet/minecraft/class_4730;
-		ARG 0 id
 	METHOD method_65531 createBedTextureId (Lnet/minecraft/class_1767;)Lnet/minecraft/class_4730;
 		ARG 0 color
 	METHOD method_65532 getShulkerBoxTextureId (Lnet/minecraft/class_1767;)Lnet/minecraft/class_4730;
@@ -93,7 +79,3 @@ CLASS net/minecraft/class_4722 net/minecraft/client/render/TexturedRenderLayers
 		ARG 0 color
 	METHOD method_65534 createShulkerBoxTextureId (Lnet/minecraft/class_1767;)Lnet/minecraft/class_4730;
 		ARG 0 color
-	METHOD method_65817 createSignTextureId (Lnet/minecraft/class_2960;)Lnet/minecraft/class_4730;
-		ARG 0 id
-	METHOD method_65818 createHangingSignTextureId (Lnet/minecraft/class_2960;)Lnet/minecraft/class_4730;
-		ARG 0 id

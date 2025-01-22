@@ -42,8 +42,6 @@ CLASS net/minecraft/class_9334 net/minecraft/component/DataComponentTypes
 		ARG 0 builder
 	METHOD method_57893 (Lnet/minecraft/class_9331$class_9332;)Lnet/minecraft/class_9331$class_9332;
 		ARG 0 builder
-	METHOD method_57894 (Lnet/minecraft/class_9331$class_9332;)Lnet/minecraft/class_9331$class_9332;
-		ARG 0 builder
 	METHOD method_57895 (Lnet/minecraft/class_9331$class_9332;)Lnet/minecraft/class_9331$class_9332;
 		ARG 0 builder
 	METHOD method_57896 (Lnet/minecraft/class_9331$class_9332;)Lnet/minecraft/class_9331$class_9332;
@@ -72,8 +70,6 @@ CLASS net/minecraft/class_9334 net/minecraft/component/DataComponentTypes
 	METHOD method_57907 (Lnet/minecraft/class_9331$class_9332;)Lnet/minecraft/class_9331$class_9332;
 		ARG 0 builder
 	METHOD method_57908 (Lnet/minecraft/class_9331$class_9332;)Lnet/minecraft/class_9331$class_9332;
-		ARG 0 builder
-	METHOD method_57909 (Lnet/minecraft/class_9331$class_9332;)Lnet/minecraft/class_9331$class_9332;
 		ARG 0 builder
 	METHOD method_57910 (Lnet/minecraft/class_9331$class_9332;)Lnet/minecraft/class_9331$class_9332;
 		ARG 0 builder
@@ -126,8 +122,6 @@ CLASS net/minecraft/class_9334 net/minecraft/component/DataComponentTypes
 	METHOD method_58565 (Lnet/minecraft/class_9331$class_9332;)Lnet/minecraft/class_9331$class_9332;
 		ARG 0 builder
 	METHOD method_58566 (Lnet/minecraft/class_9331$class_9332;)Lnet/minecraft/class_9331$class_9332;
-		ARG 0 builder
-	METHOD method_58567 (Lnet/minecraft/class_9331$class_9332;)Lnet/minecraft/class_9331$class_9332;
 		ARG 0 builder
 	METHOD method_58568 (Lnet/minecraft/class_9331$class_9332;)Lnet/minecraft/class_9331$class_9332;
 		ARG 0 builder

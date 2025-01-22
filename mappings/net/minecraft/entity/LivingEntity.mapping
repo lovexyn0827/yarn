@@ -273,7 +273,6 @@ CLASS net/minecraft/class_1309 net/minecraft/entity/LivingEntity
 	METHOD method_39760 getFallSounds ()Lnet/minecraft/class_1309$class_6823;
 	METHOD method_41329 disableExperienceDropping ()V
 	METHOD method_41330 isExperienceDroppingDisabled ()Z
-	METHOD method_42149 disablesShield ()Z
 	METHOD method_44201 isArmorSlot (Lnet/minecraft/class_1304;)Z
 		ARG 1 slot
 	METHOD method_45324 areItemsDifferent (Lnet/minecraft/class_1799;Lnet/minecraft/class_1799;)Z
@@ -476,8 +475,6 @@ CLASS net/minecraft/class_1309 net/minecraft/entity/LivingEntity
 		COMMENT @see #getExperienceToDrop()
 	METHOD method_6055 getHandSwingProgress (F)F
 		ARG 1 tickDelta
-	METHOD method_6056 damageShield (F)V
-		ARG 1 amount
 	METHOD method_6057 canSee (Lnet/minecraft/class_1297;)Z
 		ARG 1 entity
 	METHOD method_6058 getActiveHand ()Lnet/minecraft/class_1268;
@@ -539,8 +536,7 @@ CLASS net/minecraft/class_1309 net/minecraft/entity/LivingEntity
 	METHOD method_6088 getActiveStatusEffects ()Ljava/util/Map;
 	METHOD method_6089 containsOnlyAmbientEffects (Ljava/util/Collection;)Z
 		ARG 0 effects
-	METHOD method_6090 takeShieldHit (Lnet/minecraft/class_1309;)V
-		ARG 1 attacker
+	METHOD method_6090 takeShieldHit (Lnet/minecraft/class_3218;Lnet/minecraft/class_1309;)V
 	METHOD method_6091 travel (Lnet/minecraft/class_243;)V
 		COMMENT Allows you to do certain speed and velocity calculations. This is useful for custom vehicle behavior, or custom entity movement. This is not to be confused with AI.
 		COMMENT

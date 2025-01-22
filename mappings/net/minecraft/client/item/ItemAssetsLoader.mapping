@@ -8,10 +8,5 @@ CLASS net/minecraft/class_10521 net/minecraft/client/item/ItemAssetsLoader
 		ARG 1 executor
 	METHOD method_65930 (Ljava/util/List;)Lnet/minecraft/class_10521$class_10522;
 		ARG 0 definitions
-	METHOD method_65931 (Ljava/util/List;Ljava/util/concurrent/Executor;Lnet/minecraft/class_2960;Lnet/minecraft/class_3298;)V
-		ARG 2 id
-		ARG 3 resource
-	METHOD method_65932 (Ljava/util/concurrent/Executor;Ljava/util/Map;)Ljava/util/concurrent/CompletionStage;
-		ARG 1 resources
 	CLASS class_10522 Result
 	CLASS class_10523 Definition

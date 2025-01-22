@@ -16,9 +16,9 @@ CLASS net/minecraft/class_2414 net/minecraft/data/advancement/vanilla/VanillaHus
 		ARG 1 breedableAnimals
 	METHOD method_16117 (Lnet/minecraft/class_161$class_162;Lnet/minecraft/class_6880$class_6883;)V
 		ARG 1 entry
-	METHOD method_16118 requireAllCatsTamed (Lnet/minecraft/class_161$class_162;)Lnet/minecraft/class_161$class_162;
+	METHOD method_16118 requireAllCatsTamed (Lnet/minecraft/class_161$class_162;Lnet/minecraft/class_7225;)Lnet/minecraft/class_161$class_162;
 		ARG 0 builder
-	METHOD method_43362 requireAllFrogsOnLeads (Lnet/minecraft/class_7871;Lnet/minecraft/class_7871;Lnet/minecraft/class_161$class_162;)Lnet/minecraft/class_161$class_162;
+	METHOD method_43362 requireAllFrogsOnLeads (Lnet/minecraft/class_7871;Lnet/minecraft/class_7871;Lnet/minecraft/class_7225;Lnet/minecraft/class_161$class_162;)Lnet/minecraft/class_161$class_162;
 	METHOD method_47810 createBreedAllAnimalsAdvancement (Lnet/minecraft/class_8779;Ljava/util/function/Consumer;Lnet/minecraft/class_7871;Ljava/util/stream/Stream;Ljava/util/stream/Stream;)Lnet/minecraft/class_8779;
 		ARG 0 parent
 		ARG 1 exporter

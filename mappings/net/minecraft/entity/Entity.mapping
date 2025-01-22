@@ -149,7 +149,6 @@ CLASS net/minecraft/class_1297 net/minecraft/entity/Entity
 	FIELD field_44873 forceUpdateSupportingBlockPos Z
 	FIELD field_47742 stateAtPos Lnet/minecraft/class_2680;
 	FIELD field_51994 portalManager Lnet/minecraft/class_9787;
-	FIELD field_54946 onFire Z
 	FIELD field_54947 queuedCollisionChecks Ljava/util/List;
 	FIELD field_54948 collidedBlockPositions Lit/unimi/dsi/fastutil/longs/LongSet;
 	FIELD field_55940 fireState Lnet/minecraft/class_1297$class_10628;
@@ -2279,7 +2278,7 @@ CLASS net/minecraft/class_1297 net/minecraft/entity/Entity
 	METHOD method_66247 isLogicalSideForUpdatingMovement ()Z
 	METHOD method_66248 isControlledByMainPlayer ()Z
 	METHOD method_66249 canMoveVoluntarily ()Z
-	METHOD method_66250 spawnBubbleColumnParticles (Lnet/minecraft/class_2338;)V
+	METHOD method_66250 spawnBubbleColumnParticles (Lnet/minecraft/class_1937;Lnet/minecraft/class_2338;)V
 		ARG 1 pos
 	METHOD method_66648 collidesWithFluid (Lnet/minecraft/class_3610;Lnet/minecraft/class_2338;Lnet/minecraft/class_243;Lnet/minecraft/class_243;)Z
 		ARG 1 state

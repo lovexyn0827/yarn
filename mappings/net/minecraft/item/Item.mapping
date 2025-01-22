@@ -119,7 +119,6 @@ CLASS net/minecraft/class_1792 net/minecraft/item/Item
 		ARG 1 stack
 		ARG 2 world
 		ARG 3 player
-	METHOD method_57336 getBreakSound ()Lnet/minecraft/class_3414;
 	METHOD method_57347 getComponents ()Lnet/minecraft/class_9323;
 	METHOD method_58403 getBonusAttackDamage (Lnet/minecraft/class_1297;FLnet/minecraft/class_1282;)F
 		ARG 1 target
@@ -201,14 +200,6 @@ CLASS net/minecraft/class_1792 net/minecraft/item/Item
 		ARG 2 user
 		ARG 3 entity
 		ARG 4 hand
-	METHOD method_7851 appendTooltip (Lnet/minecraft/class_1799;Lnet/minecraft/class_1792$class_9635;Ljava/util/List;Lnet/minecraft/class_1836;)V
-		COMMENT Called by the client to append tooltips to an item. Subclasses can override
-		COMMENT this and add custom tooltips to {@code tooltip} list.
-		ARG 1 stack
-		ARG 2 context
-		ARG 3 tooltip
-			COMMENT the list of tooltips to show
-		ARG 4 type
 	METHOD method_7852 usageTick (Lnet/minecraft/class_1937;Lnet/minecraft/class_1309;Lnet/minecraft/class_1799;I)V
 		COMMENT Called on both the server and the client every tick while an entity uses
 		COMMENT the item. Currently used by {@link CrossbowItem} to charge the crossbow.
@@ -406,12 +397,11 @@ CLASS net/minecraft/class_1792 net/minecraft/item/Item
 			ARG 1 material
 			ARG 2 attackDamage
 			ARG 3 attackSpeed
-		METHOD method_66331 tool (Lnet/minecraft/class_9886;Lnet/minecraft/class_6862;FFZ)Lnet/minecraft/class_1792$class_1793;
+		METHOD method_66331 tool (Lnet/minecraft/class_9886;Lnet/minecraft/class_6862;FFF)Lnet/minecraft/class_1792$class_1793;
 			ARG 1 material
 			ARG 2 effectiveBlocks
 			ARG 3 attackDamage
 			ARG 4 attackSpeed
-			ARG 5 canDisableBlocking
 		METHOD method_66332 armor (Lnet/minecraft/class_1741;Lnet/minecraft/class_8051;)Lnet/minecraft/class_1792$class_1793;
 			ARG 1 material
 			ARG 2 type

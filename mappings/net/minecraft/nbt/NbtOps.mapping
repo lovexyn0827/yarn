@@ -156,7 +156,7 @@ CLASS net/minecraft/class_2509 net/minecraft/nbt/NbtOps
 		METHOD <init> (Lnet/minecraft/class_2520;)V
 			ARG 1 nbt
 	CLASS class_7811 BasicMerger
-		FIELD field_40671 EMPTY Lnet/minecraft/class_2509$class_7811;
+		FIELD field_40671 EMPTY Lnet/minecraft/class_2509$class_7813;
 	CLASS class_7812 IntArrayMerger
 		FIELD field_40672 list Lit/unimi/dsi/fastutil/ints/IntArrayList;
 		METHOD <init> (I)V

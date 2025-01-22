@@ -1,9 +1,8 @@
 CLASS net/minecraft/class_10451 net/minecraft/client/render/item/model/SelectItemModel
 	FIELD field_55362 property Lnet/minecraft/class_10494;
-	FIELD field_55363 cases Lit/unimi/dsi/fastutil/objects/Object2ObjectMap;
-	METHOD <init> (Lnet/minecraft/class_10494;Lit/unimi/dsi/fastutil/objects/Object2ObjectMap;)V
+	FIELD field_55363 cases Lnet/minecraft/class_10451$class_10722;
+	METHOD <init> (Lnet/minecraft/class_10494;Lnet/minecraft/class_10451$class_10722;)V
 		ARG 1 property
-		ARG 2 cases
 	CLASS class_10452 SwitchCase
 		METHOD method_65628 createCodec (Lcom/mojang/serialization/Codec;)Lcom/mojang/serialization/Codec;
 			ARG 0 conditionCodec
