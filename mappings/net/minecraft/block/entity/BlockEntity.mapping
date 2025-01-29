@@ -230,14 +230,6 @@ CLASS net/minecraft/class_2586 net/minecraft/block/entity/BlockEntity
 	METHOD method_58685 readComponents (Lnet/minecraft/class_9323;Lnet/minecraft/class_9326;)V
 		ARG 1 defaultComponents
 		ARG 2 components
-	METHOD method_58686 (Lnet/minecraft/class_2487;Lnet/minecraft/class_2520;)V
-		ARG 1 nbt
-	METHOD method_58687 (Ljava/lang/String;)V
-		ARG 0 snbt
-	METHOD method_58688 (Lnet/minecraft/class_9323;)V
-		ARG 1 components
-	METHOD method_58689 (Ljava/lang/String;)V
-		ARG 0 error
 	METHOD method_58690 read (Lnet/minecraft/class_2487;Lnet/minecraft/class_7225$class_7874;)V
 		ARG 1 nbt
 		ARG 2 registries
@@ -263,4 +255,4 @@ CLASS net/minecraft/class_2586 net/minecraft/block/entity/BlockEntity
 	METHOD method_66474 (Ljava/lang/String;)V
 		ARG 0 error
 	CLASS class_9472 Components
-		FIELD field_50176 CODEC Lcom/mojang/serialization/Codec;
+		FIELD field_50176 CODEC Lcom/mojang/serialization/MapCodec;

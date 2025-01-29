@@ -4,7 +4,7 @@ CLASS net/minecraft/class_4517 net/minecraft/test/GameTestState
 	FIELD field_20563 tickLimit I
 	FIELD field_20565 started Z
 	FIELD field_20567 completed Z
-	FIELD field_20569 throwable Ljava/lang/Throwable;
+	FIELD field_20569 throwable Lnet/minecraft/class_10751;
 	FIELD field_21452 timedTaskRunners Ljava/util/Collection;
 	FIELD field_21453 ticksByRunnables Lit/unimi/dsi/fastutil/objects/Object2LongMap;
 	FIELD field_21455 tick I
@@ -26,8 +26,7 @@ CLASS net/minecraft/class_4517 net/minecraft/test/GameTestState
 	METHOD method_22166 init ()Lnet/minecraft/class_4517;
 	METHOD method_22167 addListener (Lnet/minecraft/class_4518;)V
 		ARG 1 listener
-	METHOD method_22168 fail (Ljava/lang/Throwable;)V
-		ARG 1 throwable
+	METHOD method_22168 fail (Lnet/minecraft/class_10751;)V
 	METHOD method_22171 (Lnet/minecraft/class_4520;Lnet/minecraft/class_4518;)V
 		ARG 2 listener
 	METHOD method_22172 getPos ()Lnet/minecraft/class_2338;
@@ -36,7 +35,7 @@ CLASS net/minecraft/class_4517 net/minecraft/test/GameTestState
 	METHOD method_22178 isFailed ()Z
 	METHOD method_22179 isStarted ()Z
 	METHOD method_22180 isCompleted ()Z
-	METHOD method_22182 getThrowable ()Ljava/lang/Throwable;
+	METHOD method_22182 getThrowable ()Lnet/minecraft/class_10751;
 	METHOD method_22183 isRequired ()Z
 	METHOD method_22184 isOptional ()Z
 	METHOD method_23634 startCountdown (I)Lnet/minecraft/class_4517;

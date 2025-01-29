@@ -53,10 +53,6 @@ CLASS net/minecraft/class_2852 net/minecraft/world/chunk/SerializedChunk
 		ARG 0 block
 	METHOD method_39313 (Lnet/minecraft/class_3611;)Ljava/lang/String;
 		ARG 0 fluid
-	METHOD method_39315 (Lnet/minecraft/class_2487;Lnet/minecraft/class_2520;)V
-		ARG 1 belowZeroRetrogen
-	METHOD method_39539 (Lnet/minecraft/class_2487;Lnet/minecraft/class_2520;)V
-		ARG 1 blendingData
 	METHOD method_61793 fromChunk (Lnet/minecraft/class_3218;Lnet/minecraft/class_2791;)Lnet/minecraft/class_2852;
 		ARG 0 world
 		ARG 1 chunk

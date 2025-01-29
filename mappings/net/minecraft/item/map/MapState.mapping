@@ -70,8 +70,6 @@ CLASS net/minecraft/class_22 net/minecraft/item/map/MapState
 		ARG 1 pos
 		ARG 2 id
 		ARG 3 decorationType
-	METHOD method_29008 (Lnet/minecraft/class_2487;Lnet/minecraft/class_2520;)V
-		ARG 1 dimension
 	METHOD method_32361 copy ()Lnet/minecraft/class_22;
 	METHOD method_32362 of (BZLnet/minecraft/class_5321;)Lnet/minecraft/class_22;
 		COMMENT Creates a new map state instance for the client.
@@ -111,22 +109,16 @@ CLASS net/minecraft/class_22 net/minecraft/item/map/MapState
 		ARG 1 x
 		ARG 2 z
 		ARG 3 color
-	METHOD method_32371 fromNbt (Lnet/minecraft/class_2487;Lnet/minecraft/class_7225$class_7874;)Lnet/minecraft/class_22;
-		ARG 0 nbt
-		ARG 1 registries
 	METHOD method_32372 hasExplorationMapDecoration ()Z
 	METHOD method_32373 getDecorations ()Ljava/lang/Iterable;
 	METHOD method_32374 markDecorationsDirty ()V
 	METHOD method_35503 getBanners ()Ljava/util/Collection;
 	METHOD method_37343 decorationCountNotLessThan (I)Z
 		ARG 1 decorationCount
-	METHOD method_52611 getPersistentStateType ()Lnet/minecraft/class_18$class_8645;
 	METHOD method_55784 getEqualPredicate (Lnet/minecraft/class_1799;)Ljava/util/function/Predicate;
 		ARG 0 stack
 	METHOD method_55785 (Lnet/minecraft/class_1799;Lnet/minecraft/class_9209;Lnet/minecraft/class_1799;)Z
 		ARG 2 other
-	METHOD method_56815 (Ljava/lang/String;)V
-		ARG 0 banner
 	METHOD method_57626 (Lnet/minecraft/class_1657;Ljava/lang/String;Lnet/minecraft/class_9292$class_9293;)V
 		ARG 2 id
 		ARG 3 decoration

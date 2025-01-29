@@ -3,7 +3,6 @@ CLASS net/minecraft/class_1657 net/minecraft/entity/player/PlayerEntity
 	FIELD field_18135 STANDING_DIMENSIONS Lnet/minecraft/class_4048;
 	FIELD field_19428 shoulderEntityAddedTime J
 	FIELD field_30651 DEFAULT_EYE_HEIGHT F
-	FIELD field_38197 LOGGER Lorg/slf4j/Logger;
 	FIELD field_39445 lastDeathPos Ljava/util/Optional;
 	FIELD field_41765 damageTiltYaw F
 	FIELD field_46174 DEFAULT_MAIN_ARM Lnet/minecraft/class_1306;
@@ -113,12 +112,8 @@ CLASS net/minecraft/class_1657 net/minecraft/entity/player/PlayerEntity
 		ARG 2 riptideAttackDamage
 		ARG 3 stack
 	METHOD method_42272 getSculkShriekerWarningManager ()Ljava/util/Optional;
-	METHOD method_43119 (Lnet/minecraft/class_4208;)Ljava/util/Optional;
-		ARG 0 pos
 	METHOD method_43120 setLastDeathPos (Ljava/util/Optional;)V
 		ARG 1 lastDeathPos
-	METHOD method_43121 (Lnet/minecraft/class_2487;Lnet/minecraft/class_2520;)V
-		ARG 1 pos
 	METHOD method_43122 getLastDeathPos ()Ljava/util/Optional;
 	METHOD method_45015 shouldCloseHandledScreenOnRespawn ()Z
 	METHOD method_51283 onRecipeCrafted (Lnet/minecraft/class_8786;Ljava/util/List;)V
@@ -151,8 +146,6 @@ CLASS net/minecraft/class_1657 net/minecraft/entity/player/PlayerEntity
 			COMMENT #getEntityInteractionRange the default range}
 	METHOD method_5691 getPermissionLevel ()I
 	METHOD method_58396 clearCurrentExplosion ()V
-	METHOD method_58397 (Lnet/minecraft/class_243;)V
-		ARG 1 currentExplosionImpactPos
 	METHOD method_59818 isSpaceAroundPlayerEmpty (DDD)Z
 		ARG 1 offsetX
 		ARG 3 offsetZ

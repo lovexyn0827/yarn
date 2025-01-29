@@ -102,8 +102,6 @@ CLASS net/minecraft/class_1646 net/minecraft/entity/passive/VillagerEntity
 	METHOD method_49695 sendOffersToCustomer ()V
 	METHOD method_51304 (Lnet/minecraft/class_1799;)Z
 		ARG 0 stack
-	METHOD method_56683 (Lnet/minecraft/class_3850;)V
-		ARG 1 villagerData
 	METHOD method_63012 (JLjava/lang/Long;)Z
 		ARG 2 lastSlept
 	METHOD method_63666 (Lnet/minecraft/class_3218;Lnet/minecraft/class_1640;)V

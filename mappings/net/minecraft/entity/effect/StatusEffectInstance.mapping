@@ -91,9 +91,6 @@ CLASS net/minecraft/class_1293 net/minecraft/entity/effect/StatusEffectInstance
 	METHOD method_5578 getAmplifier ()I
 	METHOD method_5579 getEffectType ()Lnet/minecraft/class_6880;
 	METHOD method_5581 shouldShowParticles ()Z
-	METHOD method_5582 writeNbt ()Lnet/minecraft/class_2520;
-	METHOD method_5583 fromNbt (Lnet/minecraft/class_2487;)Lnet/minecraft/class_1293;
-		ARG 0 nbt
 	METHOD method_5584 getDuration ()I
 	METHOD method_5585 update (Lnet/minecraft/class_3218;Lnet/minecraft/class_1309;Ljava/lang/Runnable;)Z
 		ARG 1 world

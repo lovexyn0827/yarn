@@ -155,7 +155,6 @@ CLASS net/minecraft/class_1297 net/minecraft/entity/Entity
 	FIELD field_5951 ridingCooldown I
 	FIELD field_5952 onGround Z
 	FIELD field_5953 firstUpdate Z
-	FIELD field_5955 LOGGER Lorg/slf4j/Logger;
 	FIELD field_5956 fireTicks I
 	FIELD field_5957 touchingWater Z
 	FIELD field_5958 glowing Z

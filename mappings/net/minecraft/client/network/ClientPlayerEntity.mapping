@@ -49,7 +49,6 @@ CLASS net/minecraft/class_746 net/minecraft/client/network/ClientPlayerEntity
 		ARG 6 lastSneaking
 		ARG 7 lastSprinting
 	METHOD method_20303 shouldSlowDown ()Z
-	METHOD method_20623 isWalking ()Z
 	METHOD method_22119 shouldAutoJump ()Z
 	METHOD method_22120 hasMovementInput ()Z
 		COMMENT {@return whether the player has movement input}

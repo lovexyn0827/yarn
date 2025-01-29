@@ -161,8 +161,6 @@ CLASS net/minecraft/class_3222 net/minecraft/server/network/ServerPlayerEntity
 		ARG 2 direction
 	METHOD method_26287 isBedWithinRange (Lnet/minecraft/class_2338;)Z
 		ARG 1 pos
-	METHOD method_29205 (Lnet/minecraft/class_2487;Lnet/minecraft/class_2520;)V
-		ARG 1 encoded
 	METHOD method_29777 (Lnet/minecraft/class_1308;)V
 		ARG 1 entity
 	METHOD method_29778 (Lnet/minecraft/class_1308;)Z
@@ -219,10 +217,6 @@ CLASS net/minecraft/class_3222 net/minecraft/server/network/ServerPlayerEntity
 	METHOD method_44707 acceptsMessage (Z)Z
 		ARG 1 overlay
 	METHOD method_45163 getSession ()Lnet/minecraft/class_7822;
-	METHOD method_45164 (Lnet/minecraft/class_7262;)V
-		ARG 1 sculkShriekerWarningManager
-	METHOD method_45165 (Lnet/minecraft/class_2487;Lnet/minecraft/class_2520;)V
-		ARG 1 encoded
 	METHOD method_46364 setSession (Lnet/minecraft/class_7822;)V
 		ARG 1 session
 	METHOD method_51468 setServerWorld (Lnet/minecraft/class_3218;)V
@@ -254,13 +248,9 @@ CLASS net/minecraft/class_3222 net/minecraft/server/network/ServerPlayerEntity
 	METHOD method_55633 updateCreativeInteractionRangeModifiers ()V
 	METHOD method_58143 setSpawnExtraParticlesOnFall (Z)V
 		ARG 1 spawnExtraParticlesOnFall
-	METHOD method_58583 (Lnet/minecraft/class_2487;Lnet/minecraft/class_2520;)V
-		ARG 1 encoded
 	METHOD method_58584 clearStartRaidPos ()V
 	METHOD method_58585 getStartRaidPos ()Lnet/minecraft/class_2338;
 	METHOD method_58586 setStartRaidPos (Lnet/minecraft/class_2338;)V
-		ARG 1 startRaidPos
-	METHOD method_58587 (Lnet/minecraft/class_2338;)V
 		ARG 1 startRaidPos
 	METHOD method_60588 findRespawnPosition (Lnet/minecraft/class_3218;Lnet/minecraft/class_2338;FZZ)Ljava/util/Optional;
 		ARG 0 world
@@ -297,8 +287,6 @@ CLASS net/minecraft/class_3222 net/minecraft/server/network/ServerPlayerEntity
 		ARG 1 enderPearl
 	METHOD method_64125 readRootVehicle (Ljava/util/Optional;)V
 		ARG 1 nbt
-	METHOD method_64126 (Lnet/minecraft/class_2487;Lnet/minecraft/class_2520;)V
-		ARG 1 dimension
 	METHOD method_64127 (Lnet/minecraft/class_2520;)V
 		ARG 1 enderPearlNbt
 	METHOD method_64128 getEnderPearls ()Ljava/util/Set;

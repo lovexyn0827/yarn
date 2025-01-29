@@ -46,22 +46,10 @@ CLASS net/minecraft/class_8113 net/minecraft/entity/decoration/DisplayEntity
 		ARG 1 brightness
 	METHOD method_48847 setBillboardMode (Lnet/minecraft/class_8113$class_8114;)V
 		ARG 1 billboardMode
-	METHOD method_48848 (Lcom/mojang/datafixers/util/Pair;)V
-		ARG 1 pair
 	METHOD method_48849 setTransformation (Lnet/minecraft/class_4590;)V
 		ARG 1 transformation
-	METHOD method_48851 (Lnet/minecraft/class_2487;Lnet/minecraft/class_2520;)V
-		ARG 1 brightness
-	METHOD method_48855 (Lcom/mojang/datafixers/util/Pair;)V
-		ARG 1 pair
-	METHOD method_48856 (Lnet/minecraft/class_2487;Lnet/minecraft/class_2520;)V
-		ARG 1 billboard
 	METHOD method_48858 setGlowColorOverride (I)V
 		ARG 1 glowColorOverride
-	METHOD method_48859 (Lcom/mojang/datafixers/util/Pair;)V
-		ARG 1 pair
-	METHOD method_48860 (Lnet/minecraft/class_2487;Lnet/minecraft/class_2520;)V
-		ARG 1 transformations
 	METHOD method_48861 setViewRange (F)V
 		ARG 1 viewRange
 	METHOD method_48862 setShadowRadius (F)V
@@ -152,10 +140,6 @@ CLASS net/minecraft/class_8113 net/minecraft/entity/decoration/DisplayEntity
 			ARG 1 transformationMode
 		METHOD method_48897 setItemStack (Lnet/minecraft/class_1799;)V
 			ARG 1 stack
-		METHOD method_48898 (Lcom/mojang/datafixers/util/Pair;)V
-			ARG 1 mode
-		METHOD method_48899 (Lnet/minecraft/class_2487;Lnet/minecraft/class_2520;)V
-			ARG 1 nbtx
 		METHOD method_48900 getItemStack ()Lnet/minecraft/class_1799;
 		METHOD method_48901 getTransformationMode ()Lnet/minecraft/class_811;
 		METHOD method_49782 getData ()Lnet/minecraft/class_8113$class_8122$class_8226;

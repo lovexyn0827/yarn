@@ -1,5 +1,4 @@
 CLASS net/minecraft/class_7133 net/minecraft/block/entity/SculkShriekerBlockEntity
-	FIELD field_38237 LOGGER Lorg/slf4j/Logger;
 	FIELD field_38239 vibrationListener Lnet/minecraft/class_8514$class_8516;
 	FIELD field_38751 WARDEN_SPAWN_TRIES I
 	FIELD field_38752 WARDEN_SPAWN_HORIZONTAL_RANGE I
@@ -13,8 +12,6 @@ CLASS net/minecraft/class_7133 net/minecraft/block/entity/SculkShriekerBlockEnti
 	METHOD <init> (Lnet/minecraft/class_2338;Lnet/minecraft/class_2680;)V
 		ARG 1 pos
 		ARG 2 state
-	METHOD method_42322 (Lnet/minecraft/class_8514$class_8515;)V
-		ARG 1 vibrationListener
 	METHOD method_43141 shriek (Lnet/minecraft/class_3218;Lnet/minecraft/class_3222;)V
 		ARG 1 world
 		ARG 2 player
