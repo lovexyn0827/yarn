@@ -47,7 +47,7 @@ CLASS net/minecraft/class_3204 net/minecraft/server/world/ChunkLevelManager
 		ARG 3 optionalChunk
 	METHOD method_17655 (J)Lit/unimi/dsi/fastutil/objects/ObjectSet;
 		ARG 0 sectionPos
-	METHOD method_20800 shouldTick (J)Z
+	METHOD method_20800 shouldTick (J)Lnet/minecraft/class_9851;
 		ARG 1 chunkPos
 	METHOD method_21683 toDumpString ()Ljava/lang/String;
 	METHOD method_38629 setSimulationDistance (I)V

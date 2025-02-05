@@ -53,8 +53,6 @@ CLASS net/minecraft/class_1921 net/minecraft/client/render/RenderLayer
 	FIELD field_53136 VIGNETTE Ljava/util/function/Function;
 	FIELD field_53137 CROSSHAIR Ljava/util/function/Function;
 	FIELD field_54962 ARMOR_TRANSLUCENT Ljava/util/function/Function;
-	FIELD field_55139 WORLD_BORDER_COLOR_MASK Lnet/minecraft/class_1921;
-	FIELD field_55140 WORLD_BORDER_ALL_MASK Lnet/minecraft/class_1921;
 	FIELD field_55141 OPAQUE_PARTICLE Ljava/util/function/Function;
 	FIELD field_55142 TRANSLUCENT_PARTICLE Ljava/util/function/Function;
 	FIELD field_55143 WEATHER_ALL_MASK Ljava/util/function/Function;
@@ -320,12 +318,9 @@ CLASS net/minecraft/class_1921 net/minecraft/client/render/RenderLayer
 		ARG 0 texture
 	METHOD method_65226 (Lnet/minecraft/class_2960;)Lnet/minecraft/class_1921;
 		ARG 0 texture
-	METHOD method_65227 getWorldBorder (Z)Lnet/minecraft/class_1921;
-		ARG 0 allMask
+	METHOD method_65227 getWorldBorder ()Lnet/minecraft/class_1921;
 	METHOD method_65228 (ZLnet/minecraft/class_2960;)Lnet/minecraft/class_1921;
 		ARG 1 texture
-	METHOD method_65229 createWorldBorder (Z)Lnet/minecraft/class_1921;
-		ARG 0 allMask
 	METHOD method_65230 createWeather (Z)Ljava/util/function/Function;
 		ARG 0 allMask
 	METHOD method_65231 getWeather (Lnet/minecraft/class_2960;Z)Lnet/minecraft/class_1921;

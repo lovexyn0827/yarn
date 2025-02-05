@@ -150,8 +150,6 @@ CLASS com/mojang/blaze3d/systems/RenderSystem
 		ARG 6 pixels
 	METHOD recordRenderCall (Lnet/minecraft/class_4573;)V
 		ARG 0 renderCall
-	METHOD renderCrosshair (I)V
-		ARG 0 size
 	METHOD setErrorCallback (Lorg/lwjgl/glfw/GLFWErrorCallbackI;)V
 		ARG 0 callback
 	METHOD setProjectionMatrix (Lorg/joml/Matrix4f;Lnet/minecraft/class_10366;)V

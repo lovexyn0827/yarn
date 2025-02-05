@@ -267,8 +267,6 @@ CLASS net/minecraft/class_1309 net/minecraft/entity/LivingEntity
 			COMMENT the effect to add
 		ARG 2 source
 			COMMENT the source entity or {@code null} for non-entity sources
-	METHOD method_37410 processEquippedStack (Lnet/minecraft/class_1799;)V
-		ARG 1 stack
 	METHOD method_37416 getJumpBoostVelocityModifier ()F
 	METHOD method_39760 getFallSounds ()Lnet/minecraft/class_1309$class_6823;
 	METHOD method_41329 disableExperienceDropping ()V
@@ -749,4 +747,5 @@ CLASS net/minecraft/class_1309 net/minecraft/entity/LivingEntity
 		ARG 2 source
 		ARG 3 amount
 	METHOD method_7292 getLuck ()F
+	METHOD method_7329 dropItem (Lnet/minecraft/class_1799;ZZ)Lnet/minecraft/class_1542;
 	CLASS class_6823 FallSounds

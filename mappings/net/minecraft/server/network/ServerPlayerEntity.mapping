@@ -272,10 +272,6 @@ CLASS net/minecraft/class_3222 net/minecraft/server/network/ServerPlayerEntity
 	METHOD method_61274 canSpawnIn (Lnet/minecraft/class_3218;Lnet/minecraft/class_238;)Z
 		ARG 1 world
 		ARG 2 box
-	METHOD method_61277 dropPlayerItem (Lnet/minecraft/class_1799;ZZ)Lnet/minecraft/class_1542;
-		ARG 1 stack
-		ARG 2 throwRandomly
-		ARG 3 retainOwnership
 	METHOD method_63561 setPlayerInput (Lnet/minecraft/class_10185;)V
 		ARG 1 playerInput
 	METHOD method_63562 getPlayerInput ()Lnet/minecraft/class_10185;

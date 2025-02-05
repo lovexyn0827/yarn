@@ -419,11 +419,9 @@ CLASS net/minecraft/class_1799 net/minecraft/item/ItemStack
 		ARG 2 user
 		ARG 3 hand
 	METHOD method_7914 getMaxCount ()I
-	METHOD method_7917 inventoryTick (Lnet/minecraft/class_1937;Lnet/minecraft/class_1297;IZ)V
+	METHOD method_7917 inventoryTick (Lnet/minecraft/class_1937;Lnet/minecraft/class_1297;Lnet/minecraft/class_1304;)V
 		ARG 1 world
 		ARG 2 entity
-		ARG 3 slot
-		ARG 4 selected
 	METHOD method_7919 getDamage ()I
 		COMMENT {@return the damage (lost durability) of the item stack}
 		COMMENT
